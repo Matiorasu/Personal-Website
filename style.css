@@ -10,14 +10,38 @@ body{
     line-height:1.5;
 }
 
+.indexCalculator{
+    padding: 8px;
+    border-radius: 12px;
+    background-color: #973c00;
+    margin-bottom: 2rem;
+}
+
+.phoneRegistry{
+    padding: 8px;
+    border-radius: 12px;
+    background-color: #973c00;
+    margin-bottom: 2rem;
+}
+
+.indexCalcLink{
+    color:cornflowerblue;
+}
+
+.phoneRegLink{
+    color:cornflowerblue
+}
+
 h1{
     font-size: 3rem;
     line-height: 3rem;
+    text-decoration: underline;
 }
 
 h2{
     font-size: 2rem;
     line-height: 2.5rem;
+    text-decoration: underline;
 }
 
 h3{

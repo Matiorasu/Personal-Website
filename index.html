@@ -8,6 +8,9 @@
     <title> Matiorasu</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="js-piano-assets/styles.css">
+    <script src = "js-piano-assets/script.js" defer></script>
+
     
 </head>
 
@@ -22,19 +25,60 @@
     <main>
         <section id="Bio">
             <h2>Biography</h2>
-            <p>Matiorasu graduated from Jacksonville State University in Jacksonville, Alabama in December of 2021, claiming a bachelor's degree in computer information systems. Since then, he has worked both freelance jobs and 9-5 retail. Matiorasu has earned recognitions in his area such as performing and coordinating with the All-County Honor Band of Calhoun County. Additionally, he achieved performance honors with the Alabama Music Educator's Association for his work with the Weaver High School Marching Band. In his studies, he achieved Jacksonville State University's Dean's List multiple times and was accepted into the school's prestigious Honors Society.</p>
+            <p>I graduated from Jacksonville State University in Jacksonville, Alabama in December of 2021, claiming a bachelor's degree in computer information systems. Since then, I have worked both freelance jobs and 9-5 retail. I have earned recognitions in my for performing and coordinating with the All-County Honor Band of Calhoun County. Additionally, I achieved performance honors with the Alabama Music Educator's Association for my work with the Weaver High School Marching Band. In my studies, I achieved Jacksonville State University's Dean's List multiple times and was accepted into the school's prestigious Honors Society.</p>
         </section>
 
         <section id="portfolio">
+            <div class="piano">
+                <button data-note="C" class="key white"></button>
+                <button data-note="Db" class="key black"></button>
+                <button data-note="D" class="key white"></button>
+                <button data-note="Eb" class="key black"></button>
+                <button data-note="E" class="key white"></button>
+                <button data-note="F" class="key white"></button>
+                <button data-note="Gb" class="key black"></button>
+                <button data-note="G" class="key white"></button>
+                <button data-note="Ab" class="key black"></button>
+                <button data-note="A" class="key white"></button>
+                <button data-note="Bb" class="key black"></button>
+                <button data-note="B" class="key white"></button>
+            </div>
+        
+            <audio id="C" src="js-piano-assets/notes/C.mp3"></audio>
+            <audio id="Db" src="js-piano-assets/notes/Db.mp3"></audio>
+            <audio id="D" src="js-piano-assets/notes/D.mp3"></audio>
+            <audio id="Eb" src="js-piano-assets/notes/Eb.mp3"></audio>
+            <audio id="E" src="js-piano-assets/notes/E.mp3"></audio>
+            <audio id="F" src="js-piano-assets/notes/F.mp3"></audio>
+            <audio id="Gb" src="js-piano-assets/notes/Gb.mp3"></audio>
+            <audio id="G" src="js-piano-assets/notes/G.mp3"></audio>
+            <audio id="Ab" src="js-piano-assets/notes/Ab.mp3"></audio>
+            <audio id="A" src="js-piano-assets/notes/A.mp3"></audio>
+            <audio id="Bb" src="js-piano-assets/notes/Bb.mp3"></audio>
+            <audio id="B" src="js-piano-assets/notes/B.mp3"></audio>
+
+            <h2> The Virtual Piano</h2>
+            <p>The piano you see above was written with a blend of javascript, CSS, and html. You can play it with your mouse, or you can play it with your bottom row of letter keys! Z, X, C, V, B, N and M play the white keys, and S, D, G, H and J play the black keys.</p>
             
+            <h2> Other Projects</h2>
+            <div class="indexCalculator">
+                <a class="indexCalcLink"href="https://github.com/Matiorasu/Heat-Index-Calculator"><h3>Heat Index Calculator</h3></a>
+                <p>The Heat Index Calculator, written in java, does just what you would expect-- It takes inputs for heat and humidity and calculates the predicted heat index.</p>
+            </div>
+
+            <div class="phoneRegistry">
+                <a class="phoneRegLink" href="https://github.com/Matiorasu/PhoneNumbers"><h3>Phone Number Registry</h3></a>
+                <p>The Phone Number Registry, written in java, allows a user to create a registry of up to 30 profiles of names and associated phone numbers. Once created, the profiles can be searched by name to find the associated phone number.</p>
+            </div>
+
         </section>
     
         <section id="Experience">
             <h2>Professional Experience</h2>
-            <p>Matiorasu has drawn experience from a variety of diverse fields in his professional life.</p>
-            <p>From August of 2016 to March of 2017, Matiorasu worked as a guest choreographer for the Weaver High School marching band, where he developed choreography for students, refined performances to specifications provided by the band's director by working one-on-one with performers, and prepared student groups for competition with routines, exercise regimens, and instructions on technique. </p>
-            <p>In the months of June and July 2017, Matiorasu interned with Widenet Consulting, LLC in Anniston, Alabama. In that time, he provided his programming knowledge and excellent customer service. In coordinating with his clients and coworkers, he provided a unique and robust product and ensured client satisfaction. Utilizing expertise and team skills, he boosted productivity and cohesion within the company.</p>
-            <p>After taking a break from contract work to pursue freelance art and music as well as focus on his studies, Matiorasu went to work for Wal-Mart in Jacksonville, Alabama. There, he provided excellent customer service and organizational expertise, as well as helped to organize schedules and reduce strain on his coworkers.</p>
+            <p>I have drawn experience from a variety of diverse fields in my professional life.</p>
+            <p>From August of 2016 to March of 2017, I worked as a guest choreographer for the Weaver High School marching band, where I developed choreography for students, refined performances to specifications provided by the band's director by working one-on-one with performers, and prepared student groups for competition with routines, exercise regimens, and instructions on technique. </p>
+            <p>In the months of June and July 2017, I interned with Widenet Consulting, LLC in Anniston, Alabama. In that time, I provided his programming knowledge and excellent customer service. In coordinating with my clients and coworkers, I provided a unique and robust product and ensured client satisfaction. Utilizing expertise and team skills, I boosted productivity and cohesion within the company.</p>
+            <p>After taking a break from contract work to pursue freelance art and music as well as focus on my studies, I went to work for Wal-Mart in Jacksonville, Alabama. There, I provided excellent customer service and organizational expertise, as well as helped to organize schedules and reduce strain on my coworkers.</p>
         </section>
     </main>
 
