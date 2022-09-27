@@ -1,0 +1,101 @@
+*, *::before, *::After {
+    box-sizing: content-box;
+}
+
+body{
+    background-color:#27272a;
+    color:white;
+    font-size: 1.25rem;
+    font-family:sans-serif;
+    line-height:1.5;
+}
+
+h1{
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+@media (orientation: landscape){
+    h1{
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+    }
+
+    h2{
+        font-size: 2.25rem;
+        line-height: 2.75rem;
+    }
+}
+
+.titleHeader{
+    text-align: center;
+    padding: 20vh 2rem;
+    background-image: linear-gradient(to bottom right,rgba(197, 149, 15, 0.75),rgba(255, 52, 1, 0.75)),url(mati.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.intro{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+main{
+    display: grid;
+    gap: 3rem;
+    padding: 0 2rem;
+    max-width: 85rem;
+    margin: auto;
+    margin-top: 6rem;
+}
+
+@media (orientation: landscape){
+    main{
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+}
+
+/* .Bio{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 20px;
+} */
+
+/* .Experience{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 20px;
+} */
+
+/* .banner{
+    width:100%;
+    height: 50vh;
+    background-image: linear-gradient(to bottom right,rgba(197, 149, 15, 0.75),rgba(255, 52, 1, 0.75)),url(mati.jpg);
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    padding-top:15vh 2rem;
+    padding-bottom:15vh 2rem;
+} */
+
+/* .bioHeader{
+    font-size: 32px;
+    font-style: bold;
+}
+
+.expHeader{
+    font-size: 32px;
+    font-style: bold;
+} */
